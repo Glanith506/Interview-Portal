@@ -1,0 +1,75 @@
+.template2 {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.template2 header {
+  text-align: center;
+  border-bottom: 3px solid #444;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.template2 header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.template2 header h2 {
+  font-size: 18px;
+  color: #666;
+  margin: 5px 0 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.template2 section {
+  margin-bottom: 25px;
+}
+
+.template2 section h3 {
+  font-size: 18px;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.template2 p,
+.template2 li,
+.template2 strong {
+  font-size: 15px;
+}
+
+.template2 .two-columns {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.template2 ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.template2 strong {
+  display: block;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.template2 div > div {
+  margin-bottom: 12px;
+}

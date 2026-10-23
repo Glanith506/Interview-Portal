@@ -1,0 +1,63 @@
+.resume-form2 {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.resume-form2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-form2 h3 {
+  margin-top: 20px;
+  color: #2563eb;
+}
+
+.resume-form2 input,
+.resume-form2 textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.section-block {
+  margin-bottom: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  border-radius: 6px;
+  background: #f9fafb;
+}
+
+button {
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="button"] {
+  background: #f3f4f6;
+}
+
+button[type="button"]:hover {
+  background: #e5e7eb;
+}
+
+.submit-btn {
+  background: #2563eb;
+  color: #fff;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #1e40af;
+}

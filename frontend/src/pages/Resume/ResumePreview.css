@@ -1,0 +1,113 @@
+/* ===================== */
+/* Shared Resume Styling */
+/* ===================== */
+.resume-preview {
+  padding: 20px;
+  text-align: center;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+#resume-content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  text-align: left;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #222;
+}
+
+.header .contact {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.header .designation {
+  font-size: 16px;
+  font-style: italic;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Section Titles */
+#resume-content h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #222;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3px;
+}
+
+/* Section Text */
+#resume-content p {
+  margin: 3px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Bold for company, project titles */
+#resume-content p strong {
+  font-weight: bold;
+}
+
+/* Float right for duration */
+.duration {
+  float: right;
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* Bullet lists for certifications, activities, hobbies */
+.bullet-point {
+  margin: 2px 0;
+  padding-left: 15px;
+  position: relative;
+}
+
+.bullet-point::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #333;
+}
+
+/* Actions (Download + Save + Edit + Back) */
+.actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.actions button {
+  margin: 5px 10px;
+  padding: 10px 18px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  background: #444;
+}
