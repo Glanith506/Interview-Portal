@@ -3,6 +3,8 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 import authRoutes from "./routes/authRoutes.js";
+import resultRoutes from "./routes/resultRoutes.js";
+import aptitudeRoutes from "./routes/aptitudeRoutes.js";
 
 dotenv.config();
 const app = express();
@@ -13,6 +15,8 @@ app.use(express.json());
 
 // ✅ Routes
 app.use("/api/auth", authRoutes);
+app.use("/api/results", resultRoutes);
+app.use("/api/aptitude", aptitudeRoutes);
 
 // Default route
 app.get("/", (req, res) => {
@@ -21,10 +25,7 @@ app.get("/", (req, res) => {
 
 // ✅ MongoDB Connection
 mongoose
-  .connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(process.env.MONGO_URI)
   .then(() => {
     console.log("✅ MongoDB Connected");
     app.listen(process.env.PORT || 5000, () => {
